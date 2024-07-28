@@ -2,8 +2,8 @@
 #define an array to put angles in
 angles=[]
 #enter angles with a space between them then press enter
-a,b,c=input('enter your figure angles with a space betweenthem then press enter to be detected if it is a triangle :  ').split()
-#convert text ti integer
+a,b,c=input('enter your figure angles with a space between them. then press enter to be detected if it is a triangle :  ').split()
+#convert text to integer
 a,b,c=int(a),int(b),int(c)
 angles.append(a)
 angles.append(b)
